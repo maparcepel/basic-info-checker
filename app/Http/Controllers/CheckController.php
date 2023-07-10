@@ -8,7 +8,7 @@ use App\Models\BasicInfo;
 
 ini_set('memory_limit', '1256M');
 
-set_time_limit(10000);
+set_time_limit(100000);
 
 class CheckController extends Controller
 {
