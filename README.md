@@ -41,3 +41,5 @@ Descripción Basic-info: lomos de bacalao \
 Descripción Producción: lomos de bacalao "Oro" envase 400 g
 
 - Cuando en el resultado del check hay una referencia que no existe en producción, comprobar primero si la referencia fue dada de baja en el último día. Podría ser el mismo basic-info que estamos comprobando el que la dio de baja. 
+
+- Al no ser en tiempo real la comprobación, los resultados pueden no ser correctos si se reciben nuevos basic-info mientras se está ejecutando la aplicación.
